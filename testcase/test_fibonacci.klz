@@ -1,0 +1,24 @@
+i func fibonacci(i num){
+    i t1 = 0;
+    i t2 = 1;
+    i nextTerm = t1 + t2;
+
+    out(t1);
+    out(t2);
+
+    i count = 3;
+    num = num + 1;
+    until(count < num) {
+        out(nextTerm);
+        t1 = t2;
+        t2 = nextTerm;
+        nextTerm = t1 + t2;
+        count = count + 1;
+    };
+
+    send 1;
+};
+
+i func main() {
+    i ret = fibonacci(9);
+};

@@ -1,0 +1,13 @@
+i func main() {
+    i [4] arrayTest;
+
+    arrayTest[0] = 2;
+    arrayTest[1] = 4 + 6;
+    arrayTest[2] = 6 + 2 * 4 / 2;
+    arrayTest[3] = arrayTest[0];
+
+    out(arrayTest[0]);
+    out(arrayTest[1]);
+    out(arrayTest[2]);
+    out(arrayTest[3]);
+};

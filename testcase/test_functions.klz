@@ -1,0 +1,10 @@
+i func example(i input, i input2) {
+    out(input);
+    out(input2);
+    send 3;
+};
+
+i func main() {
+    i num = example(1,2);
+    out(num);
+};

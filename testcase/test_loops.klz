@@ -1,0 +1,12 @@
+i func main() {
+    i sum = 0;
+
+    out(sum);
+
+    until(sum < 50)
+    {
+        sum = sum + 1;
+    };
+
+    out(sum);
+};

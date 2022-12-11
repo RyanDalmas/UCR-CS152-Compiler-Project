@@ -1,0 +1,4 @@
+i func main() {
+    i sum = thisDoesntExist(1,2);
+    out(sum);
+};

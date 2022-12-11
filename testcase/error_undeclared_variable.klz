@@ -1,0 +1,5 @@
+i func main() {
+    i sum;
+
+    sum2 = sum + 1;
+};

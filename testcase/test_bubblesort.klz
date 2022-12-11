@@ -1,0 +1,52 @@
+i func main() {
+    i [10] array;
+
+    array[0] = 100;
+    array[1] = 100000;
+    array[2] = 10000;
+    array[3] = 1;
+    array[4] = 10;
+    array[5] = 1000;
+    array[6] = 1000000;
+    array[7] = 1000000000;
+    array[8] = 100000000;
+    array[9] = 10000000;
+
+    out(array[0]);
+    out(array[1]);
+    out(array[2]);
+    out(array[3]);
+    out(array[4]);    
+    out(array[5]);
+    out(array[6]);
+    out(array[7]);
+    out(array[8]);
+    out(array[9]);
+
+    i swapped = 1;
+
+    until(swapped == 1) {
+        swapped = 0;
+        i va = 0;
+        until(va < 9) {
+            if (array[va] > array[va + 1]) {
+                i swap = array[va];
+                array[va] = array[va + 1];
+                array[va + 1] = swap;
+                swapped = 1;
+            };
+            va = va + 1;
+        };
+    };
+
+    out(array[0]);
+    out(array[1]);
+    out(array[2]);
+    out(array[3]);
+    out(array[4]);    
+    out(array[5]);
+    out(array[6]);
+    out(array[7]);
+    out(array[8]);
+    out(array[9]);
+};

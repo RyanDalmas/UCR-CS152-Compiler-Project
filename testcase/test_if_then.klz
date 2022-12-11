@@ -1,0 +1,17 @@
+i func main() {
+    i sum = 25;
+
+    if(sum < 50){
+        out(1);
+    }
+    ow{
+        out(2);
+    };
+
+    if(sum > 50){
+        out(3);
+    }
+    ow{
+        out(4);
+    };
+};
